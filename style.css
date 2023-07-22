@@ -1,0 +1,142 @@
+.container-fluid{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+.navbar-brand{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 25px;
+}
+.form-control {
+    background-color: white;
+}
+
+
+.cards{
+    margin:30px 60px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    z-index:0;
+    position:relative;
+    transition: 0.3s all;
+    box-shadow: 10px 10px 61px 6px rgba(0,0,0,0.75);
+}
+
+.card:hover{
+    transform: scale(1.3);
+    z-index: 1;
+    /* height: 300px;
+    width: 500px; */
+}
+.card img{
+    height: 150px;
+    width: 245px;
+    background-position: center;
+    background-size: cover;
+    padding: 5px;
+    border-radius: 10px;
+}
+.cards2{
+    padding:30px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.card p{
+    font-size: 12px;
+    margin:0px;
+    padding-left: 5px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left p{
+    margin-left: -12px;
+}
+.left img {
+    width: 30px;
+    height: 25px;
+    margin-top: -3px;
+    margin-left: -2px;
+}
+.card-img{
+    height: 0%;
+    position: absolute;
+    top: 10;
+  
+}
+.right{
+    position: absolute;
+    right: 10px;
+    margin-top: -38px;
+}
+.carousel-inner{
+    height: 380px;    
+}
+.carousel-item{
+    height: 380px;
+    position: relative;
+    background-position: center;
+    background-size: cover;    
+}  
+.overlay-image{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-position: center;
+    background-size: cover; 
+}
+.carousel-content{
+    position: absolute;
+    color: #f5dd9d;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 180px;
+    padding-left: 150px;
+    background-image:linear-gradient(to right,
+    rgba(42, 40, 41)5%,
+    rgba(0, 0, 0, 0)90%,
+    rgba(42, 40, 41)100%);
+    
+}
+.carousel-button{
+    background-color: #f5dd9d;
+    font-size: 15px;
+    padding:5px 20px 5px 20px;
+    border-width: 0px;
+    border-radius: 20px;
+}
+.card-button{
+    margin-left: 15px;
+    background-color: hsl(115, 88%, 66%);
+    padding: 5px 8px 5px 10px ;
+    border-width: 0px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+.card-button i{
+    color: aliceblue;
+}

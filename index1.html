@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Rubik+Dirt&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body style="background-color: #2a2829;">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #e23d75;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./logo.png" style="height: 80px; width: 80px; margin: 0px10px;">
+            Anifreaxx</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">TV series</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Genre
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Supernatural</a></li>
+                  <li><a class="dropdown-item" href="#">Slice of Life</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Others</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search anime.." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+  <main>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="overlay-image" style="background-image: url(./page1.jpg);">
+          </div>
+          <div class="carousel-content">
+            <h4>My Happy Marriage</h4>
+            <p>Some random anime about someones marriage. who cares btw I'm single..</p>
+            <button class="carousel-button">
+              Watch Now
+              <i class="fa-regular fa-circle-play"></i>
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overlay-image" style="background-image: url(./page2.jpg);"></div>
+          <div class="carousel-content">
+            <h4>Bleach: Thousand Year Blood-War</h4>
+            <p>Some random guy named Ichigo kurosagi, yelling Bankai.....</p> 
+            <button class="carousel-button">
+              Watch Now
+              <i class="fa-regular fa-circle-play"></i>
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overlay-image" style="background-image: url(./page3.jpg);"></div>
+          <div class="carousel-content">
+            <h4>The Girl I like Forgot her glasses</h4>
+            <p>Some random girl forgetting shit and we have to see that now.</p>
+            <button class="carousel-button">
+              Watch Now
+              <i class="fa-regular fa-circle-play"></i>
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overlay-image" style="background-image: url(./page4.jpg);"></div>
+          <div class="carousel-content">
+            <h4>Bhaad me jaye nahi pata</h4>
+            <p>Mujhe janna bhi nahi</p>
+            <button class="carousel-button">
+              Watch Now
+              <i class="fa-regular fa-circle-play"></i>
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="overlay-image" style="background-image: url(./page5.jpg);"></div>
+          <div class="carousel-content">
+            <h4>Black clover: Sword of Wizard king</h4>
+            <p>Some overrated Anime copied from bleach.</p>
+            <button class="carousel-button">
+              Watch Now
+              <i class="fa-regular fa-circle-play"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <h4 style="padding: 50px 0px 0px 60px; color: #f2e3c6;">Top Animes</h4>
+    <div class="cards">
+        <div class="card" >
+        <img src="./naruto.jpeg">    
+        <h5 style="padding-left: 5px;">Naruto Shippuden</h5>
+        <p>TV Series</p>
+        <p>Oct 3,2002</p>
+        <div class="container">
+          <div class="left">
+            <p>Rating: 8.7/10</p>
+            <img src="./star.png">
+          </div>        
+          <div class="right">
+            <a href="https://aniwatch.to/watch/naruto-shippuden-355" target="_blank">
+              <button class="card-button" style="margin-left: 0px;">
+               <i class="fa-solid fa-play fa-lg"></i>
+              </button>
+            </a>
+            <p>500 ep</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./yn.png" >
+        <h5 style="padding-left: 5px;">Your Name</h5>
+        <p>Movie</p>
+        <p>Aug 26,2016</p>
+        <div class="container">
+          <div class="left">
+            <p>Rating: 8.4/10</p>
+            <img src="./star.png">
+          </div>
+          <div class="right">
+            <a href="https://aniwatch.to/watch/your-name-10?ep=57910" target="_blank">
+              <button class="card-button">
+               <i class="fa-solid fa-play fa-lg"></i>
+              </button>
+            </a>
+            <p>1hr 46min</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./bleach.jpg" >
+        <h5 style="padding-left: 5px;">Bleach</h5>
+        <p>TV Series</p>
+        <p>Oct 5,2004</p>
+        <div class="container">
+          <div class="left">
+            <p>Rating: 8.2/10</p>
+            <img src=".\star.png">
+          </div>
+          <div class="right">
+            <a href="https://aniwatch.to/watch/bleach-806?ep=13793" target="_blank">
+              <button class="card-button" style="margin-left: 0px;">
+               <i class="fa-solid fa-play fa-lg"></i>
+              </button>
+            </a>
+            <p>366 ep</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="card">
+        <img src="./aot.jpg" >
+        <h5 style="padding-left: 5px;">Attack On Titan</h5>
+        <p>TV Series</p>
+        <p>April 7,2013</p>
+        <div class="container">
+          <div class="left">
+            <p>Rating: 9.1/10</p>
+            <img src="./star.png">
+          </div>
+          <div class="right">
+            <a href="https://aniwatch.to/watch/attack-on-titan-112?ep=3303" target="_blank">
+              <button class="card-button" style="margin-left: 0px;">
+               <i class="fa-solid fa-play fa-lg"></i>
+              </button>
+            </a>
+            <p>88 ep</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="cards2">
+      <div class="card">
+        <img src="./deathnote.jpg" >
+        <h5 style="padding-left: 5px;">Death Note</h5>
+        <p>TV Series</p>
+        <p>Oct 4,2006</p>
+        <div class="container">
+          <div class="left">
+            <p>Rating: 8.9/10</p>
+            <img src=".\star.png">
+          </div>
+          <div class="right">
+            <a href="https://aniwatch.to/watch/death-note-60?ep=1464" target="_blank">
+              <button class="card-button" style="margin-left: 0px;">
+               <i class="fa-solid fa-play fa-lg"></i>
+              </button>
+            </a>
+            <p>37 ep</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./demonslayer.jpg" >
+        <h5 style="padding-left: 5px;">Demon Slayer</h5>
+        <p>TV Series</p>
+        <p>April 6,2019</p>
+        <div class="container">
+          <div class="left">
+            <p>Rating: 8.7/10</p>
+            <img src=".\star.png">
+          </div>
+          <div class="right">
+            <a href="https://aniwatch.to/watch/demon-slayer-kimetsu-no-yaiba-47?ep=1279" target="_blank">
+              <button class="card-button" style="margin-left: 0px;">
+               <i class="fa-solid fa-play fa-lg"></i>
+              </button>
+            </a>
+            <p>45 ep</p>
+          </div>
+        </div>
+      </div>
+      </a>
+      <div class="card">
+        <img src="./jjks.jpg" >
+        <h5 style="padding-left: 5px;">Jujutsu Kaisen 0</h5> 
+        <p>Movie</p>
+        <p>Dec 24,2021</p>
+        <div class="container">
+          <div class="left">
+            <p>Rating: 7.8/10</p>
+            <img src=".\star.png">
+          </div>
+          <div class="right">
+            <a href="https://aniwatch.to/watch/jujutsu-kaisen-0-movie-17763?ep=90016" target="_blank">
+              <button class="card-button">
+               <i class="fa-solid fa-play fa-lg"></i>
+              </button>
+            </a>
+            <p>1hr 45min</p>
+          </div>
+        </div> 
+      </div>
+      <div class="card">
+        <img src="./wwy.jpg" >
+        <h5 style="padding-left: 5px;">Weathering With You</h5>
+        <p>Movie</p>
+        <p>Oct 11,2019</p>
+        <div class="container">
+          <div class="left">
+            <p>Rating: 7.5/10</p>
+            <img src=".\ys.jpg" style="width: 25px;">
+          </div>
+          <div class="right">
+            <a href="https://aniwatch.to/watch/weathering-with-you-111?ep=71785" target="_blank">
+              <button class="card-button">
+               <i class="fa-solid fa-play fa-lg"></i>
+              </button>
+            </a>
+            <p>1hr 54 min</p>
+          </div>
+        </div>
+      </div>
+      </a>
+      
+    </div>
+    
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
